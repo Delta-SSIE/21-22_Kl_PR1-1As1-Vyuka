@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _01_Uvod_04_Char_demo
+namespace _01_Uvod_03_Char_demo
 {
     class Program
     {
