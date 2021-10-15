@@ -31,11 +31,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-Podm-02-Boolean", "02-Po
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tmp", "tmp\tmp.csproj", "{3A3ED44D-C5E3-420C-85CC-3BBFA784EAF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Podm-03-Retezeni", "02-Podm-03-Retezeni\02-Podm-03-Retezeni.csproj", "{19F8A53C-4A70-47FB-9F8A-9BD96F99DDBD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-Podm-03-Retezeni", "02-Podm-03-Retezeni\02-Podm-03-Retezeni.csproj", "{19F8A53C-4A70-47FB-9F8A-9BD96F99DDBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Podm-04-Znamkovani", "02-Podm-04-Znamkovani\02-Podm-04-Znamkovani.csproj", "{D3BDEB5F-0757-494E-ADF7-9E4B522D9671}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-Podm-04-Znamkovani", "02-Podm-04-Znamkovani\02-Podm-04-Znamkovani.csproj", "{D3BDEB5F-0757-494E-ADF7-9E4B522D9671}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Podm-05-Switch", "02-Podm-05-Switch\02-Podm-05-Switch.csproj", "{17F2E181-B87D-480E-966D-1AE863AB643A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02-Podm-05-Switch", "02-Podm-05-Switch\02-Podm-05-Switch.csproj", "{17F2E181-B87D-480E-966D-1AE863AB643A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Podm-06-Random", "02-Podm-06-Random\02-Podm-06-Random.csproj", "{1188567D-8D33-45B3-9716-A9B872B8BF1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -103,6 +105,10 @@ Global
 		{17F2E181-B87D-480E-966D-1AE863AB643A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17F2E181-B87D-480E-966D-1AE863AB643A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17F2E181-B87D-480E-966D-1AE863AB643A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1188567D-8D33-45B3-9716-A9B872B8BF1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1188567D-8D33-45B3-9716-A9B872B8BF1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1188567D-8D33-45B3-9716-A9B872B8BF1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1188567D-8D33-45B3-9716-A9B872B8BF1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -122,6 +128,7 @@ Global
 		{19F8A53C-4A70-47FB-9F8A-9BD96F99DDBD} = {668D79AF-249D-44A9-BA1B-1D07F963E02D}
 		{D3BDEB5F-0757-494E-ADF7-9E4B522D9671} = {668D79AF-249D-44A9-BA1B-1D07F963E02D}
 		{17F2E181-B87D-480E-966D-1AE863AB643A} = {668D79AF-249D-44A9-BA1B-1D07F963E02D}
+		{1188567D-8D33-45B3-9716-A9B872B8BF1D} = {668D79AF-249D-44A9-BA1B-1D07F963E02D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F3EDB7A-73D1-489C-A58A-885EA8FD56DB}
