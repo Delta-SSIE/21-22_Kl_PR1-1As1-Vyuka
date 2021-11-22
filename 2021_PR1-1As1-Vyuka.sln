@@ -57,13 +57,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-While-07-TryParse", "03-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-While-08-Minimum", "03-While-08-Minimum\03-While-08-Minimum.csproj", "{8C0DBECE-ADD1-4E73-B31A-8944ED63B093}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-While-09-Hadej-kolik-myslim", "03-While-09-Hadej-kolik-myslim\03-While-09-Hadej-kolik-myslim.csproj", "{D52D0C09-20CA-4D1E-9985-9E56E2E712A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-While-09-Hadej-kolik-myslim", "03-While-09-Hadej-kolik-myslim\03-While-09-Hadej-kolik-myslim.csproj", "{D52D0C09-20CA-4D1E-9985-9E56E2E712A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-While-10-Prumerny-hod", "03-While-10-Prumerny-hod\03-While-10-Prumerny-hod.csproj", "{DD6AB9C6-FF44-4533-929A-31090C1CF589}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-While-10-Prumerny-hod", "03-While-10-Prumerny-hod\03-While-10-Prumerny-hod.csproj", "{DD6AB9C6-FF44-4533-929A-31090C1CF589}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-While-11-Sekvence-sestek", "03-While-11-Sekvence-sestek\03-While-11-Sekvence-sestek.csproj", "{9D8FD23E-B365-4B69-9878-CAB6E9E130E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-While-11-Sekvence-sestek", "03-While-11-Sekvence-sestek\03-While-11-Sekvence-sestek.csproj", "{9D8FD23E-B365-4B69-9878-CAB6E9E130E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-While-12-Zebriky-a-hadi", "03-While-12-Zebriky-a-hadi\03-While-12-Zebriky-a-hadi.csproj", "{64778B05-0387-4BD3-8A63-EAA375DB1940}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-While-12-Zebriky-a-hadi", "03-While-12-Zebriky-a-hadi\03-While-12-Zebriky-a-hadi.csproj", "{64778B05-0387-4BD3-8A63-EAA375DB1940}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03-While-13-Break-demo", "03-While-13-Break-demo\03-While-13-Break-demo.csproj", "{34DB26B0-42C9-4C16-8026-FA35FEAE0885}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-For", "04-For", "{EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-For-01-Demo", "04-For-01-Demo\04-For-01-Demo.csproj", "{4202B3CB-EB05-40ED-82BA-844E74F9FA9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-For-02-Jsou-vsechna-licha", "04-For-02-Jsou-vsechna-licha\04-For-02-Jsou-vsechna-licha.csproj", "{B6663573-F9C1-4BAC-B43C-73D1D9EE853C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -183,6 +191,18 @@ Global
 		{64778B05-0387-4BD3-8A63-EAA375DB1940}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64778B05-0387-4BD3-8A63-EAA375DB1940}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64778B05-0387-4BD3-8A63-EAA375DB1940}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34DB26B0-42C9-4C16-8026-FA35FEAE0885}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34DB26B0-42C9-4C16-8026-FA35FEAE0885}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34DB26B0-42C9-4C16-8026-FA35FEAE0885}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34DB26B0-42C9-4C16-8026-FA35FEAE0885}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4202B3CB-EB05-40ED-82BA-844E74F9FA9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4202B3CB-EB05-40ED-82BA-844E74F9FA9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4202B3CB-EB05-40ED-82BA-844E74F9FA9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4202B3CB-EB05-40ED-82BA-844E74F9FA9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6663573-F9C1-4BAC-B43C-73D1D9EE853C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6663573-F9C1-4BAC-B43C-73D1D9EE853C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6663573-F9C1-4BAC-B43C-73D1D9EE853C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6663573-F9C1-4BAC-B43C-73D1D9EE853C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -215,6 +235,9 @@ Global
 		{DD6AB9C6-FF44-4533-929A-31090C1CF589} = {21A4AD57-DEF2-4E42-A5DB-1B4F4C129BD3}
 		{9D8FD23E-B365-4B69-9878-CAB6E9E130E5} = {21A4AD57-DEF2-4E42-A5DB-1B4F4C129BD3}
 		{64778B05-0387-4BD3-8A63-EAA375DB1940} = {21A4AD57-DEF2-4E42-A5DB-1B4F4C129BD3}
+		{34DB26B0-42C9-4C16-8026-FA35FEAE0885} = {21A4AD57-DEF2-4E42-A5DB-1B4F4C129BD3}
+		{4202B3CB-EB05-40ED-82BA-844E74F9FA9F} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
+		{B6663573-F9C1-4BAC-B43C-73D1D9EE853C} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F3EDB7A-73D1-489C-A58A-885EA8FD56DB}
