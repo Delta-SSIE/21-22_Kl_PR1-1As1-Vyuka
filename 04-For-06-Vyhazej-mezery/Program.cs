@@ -21,7 +21,7 @@ namespace _04_For_06_Vyhazej_mezery
             
             Console.WriteLine(bezMezer);
 
-            Console.WriteLine(new string(veta.ToArray().Where(x => x !=' ').ToArray()));
+            Console.WriteLine(new string(veta.Where(x => x !=' ').ToArray()));
 
         }
     }
