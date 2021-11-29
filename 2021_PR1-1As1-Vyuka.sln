@@ -73,13 +73,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-For-01-Demo", "04-For-01
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-For-02-Jsou-vsechna-licha", "04-For-02-Jsou-vsechna-licha\04-For-02-Jsou-vsechna-licha.csproj", "{B6663573-F9C1-4BAC-B43C-73D1D9EE853C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-For-03-String-a-char", "04-For-03-String-a-char\04-For-03-String-a-char.csproj", "{3B8D5C6C-B78D-4138-A3AD-FE8F9E6363C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-For-03-String-a-char", "04-For-03-String-a-char\04-For-03-String-a-char.csproj", "{3B8D5C6C-B78D-4138-A3AD-FE8F9E6363C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-For-04-random-string", "04-For-04-random-string\04-For-04-random-string.csproj", "{77C36EAE-147C-4970-BCD3-AB4403F64B8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-For-04-random-string", "04-For-04-random-string\04-For-04-random-string.csproj", "{77C36EAE-147C-4970-BCD3-AB4403F64B8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-For-05-Zamaskuj", "04-For-05-Zamaskuj\04-For-05-Zamaskuj.csproj", "{F9233DA1-3947-402C-9823-27F8766FF336}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-For-05-Zamaskuj", "04-For-05-Zamaskuj\04-For-05-Zamaskuj.csproj", "{F9233DA1-3947-402C-9823-27F8766FF336}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-For-06-Vyhazej-mezery", "04-For-06-Vyhazej-mezery\04-For-06-Vyhazej-mezery.csproj", "{12C59471-003A-41AB-A5D0-A27F28AF7ED2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-For-06-Vyhazej-mezery", "04-For-06-Vyhazej-mezery\04-For-06-Vyhazej-mezery.csproj", "{12C59471-003A-41AB-A5D0-A27F28AF7ED2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-For-07-Test-palindromu", "04-For-07-Test-palindromu\04-For-07-Test-palindromu.csproj", "{623D8890-347A-4023-829E-A2D0BA618785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-For-08-Nech-jen-pismena", "04-For-08-Nech-jen-pismena\04-For-08-Nech-jen-pismena.csproj", "{68F752FB-2256-4102-95EA-EFC313D6D73A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-For-09-Hadej-slovo", "04-For-09-Hadej-slovo\04-For-09-Hadej-slovo.csproj", "{AA9B944F-B901-4FD6-89F2-1CD92DB8E854}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -227,6 +233,18 @@ Global
 		{12C59471-003A-41AB-A5D0-A27F28AF7ED2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12C59471-003A-41AB-A5D0-A27F28AF7ED2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12C59471-003A-41AB-A5D0-A27F28AF7ED2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{623D8890-347A-4023-829E-A2D0BA618785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{623D8890-347A-4023-829E-A2D0BA618785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{623D8890-347A-4023-829E-A2D0BA618785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{623D8890-347A-4023-829E-A2D0BA618785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68F752FB-2256-4102-95EA-EFC313D6D73A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68F752FB-2256-4102-95EA-EFC313D6D73A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68F752FB-2256-4102-95EA-EFC313D6D73A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68F752FB-2256-4102-95EA-EFC313D6D73A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA9B944F-B901-4FD6-89F2-1CD92DB8E854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA9B944F-B901-4FD6-89F2-1CD92DB8E854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA9B944F-B901-4FD6-89F2-1CD92DB8E854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA9B944F-B901-4FD6-89F2-1CD92DB8E854}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -266,6 +284,9 @@ Global
 		{77C36EAE-147C-4970-BCD3-AB4403F64B8C} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
 		{F9233DA1-3947-402C-9823-27F8766FF336} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
 		{12C59471-003A-41AB-A5D0-A27F28AF7ED2} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
+		{623D8890-347A-4023-829E-A2D0BA618785} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
+		{68F752FB-2256-4102-95EA-EFC313D6D73A} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
+		{AA9B944F-B901-4FD6-89F2-1CD92DB8E854} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F3EDB7A-73D1-489C-A58A-885EA8FD56DB}

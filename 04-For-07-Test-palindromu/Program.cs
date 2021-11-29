@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace tmp
+namespace _04_For_07_Test_palindromu
 {
     class Program
     {
@@ -17,7 +17,7 @@ namespace tmp
                     bezMezer += znak;
             }
             bezMezer = bezMezer.ToLower(); //převedu na malá písmena
-            
+
             string odzadu = "";
             for (int i = bezMezer.Length - 1; i >= 0; i--) //jdu od posledního písmene dolů
             {
