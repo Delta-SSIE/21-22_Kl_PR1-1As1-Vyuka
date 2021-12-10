@@ -101,11 +101,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-For-15-Domino", "04-For-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-For-16-Algebrogram", "04-For-16-Algebrogram\04-For-16-Algebrogram.csproj", "{65A4E80D-A502-4C87-9CCB-E361D32BF7D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-For-17-Diagonala", "04-For-17-Diagonala\04-For-17-Diagonala.csproj", "{35D42DC5-037E-4DFA-9F68-696E9C19E474}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-For-17-Diagonala", "04-For-17-Diagonala\04-For-17-Diagonala.csproj", "{35D42DC5-037E-4DFA-9F68-696E9C19E474}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-For-18-Caesar", "04-For-18-Caesar\04-For-18-Caesar.csproj", "{DE55B778-6D0C-4572-8E8F-D6E868EF009D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-For-18-Caesar", "04-For-18-Caesar\04-For-18-Caesar.csproj", "{DE55B778-6D0C-4572-8E8F-D6E868EF009D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-For-19-Kreslim-sachovnici", "04-For-19-Kreslim-sachovnici\04-For-19-Kreslim-sachovnici.csproj", "{FF7B3AC7-6054-4F70-94E5-236C6F3DCF69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-For-19-Kreslim-sachovnici", "04-For-19-Kreslim-sachovnici\04-For-19-Kreslim-sachovnici.csproj", "{FF7B3AC7-6054-4F70-94E5-236C6F3DCF69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-For-20-Sachovnice-s-pozicí", "04-For-20-Sachovnice-s-pozicí\04-For-20-Sachovnice-s-pozicí.csproj", "{BF0DD8D9-4504-4001-9373-1D4E078F5E92}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-For-21-Kam-utoci-vez", "04-For-21-Kam-utoci-vez\04-For-21-Kam-utoci-vez.csproj", "{97AFC5ED-6DB9-407D-91E5-48A631CED3EF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -305,6 +309,14 @@ Global
 		{FF7B3AC7-6054-4F70-94E5-236C6F3DCF69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF7B3AC7-6054-4F70-94E5-236C6F3DCF69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF7B3AC7-6054-4F70-94E5-236C6F3DCF69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF0DD8D9-4504-4001-9373-1D4E078F5E92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF0DD8D9-4504-4001-9373-1D4E078F5E92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF0DD8D9-4504-4001-9373-1D4E078F5E92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF0DD8D9-4504-4001-9373-1D4E078F5E92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97AFC5ED-6DB9-407D-91E5-48A631CED3EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97AFC5ED-6DB9-407D-91E5-48A631CED3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97AFC5ED-6DB9-407D-91E5-48A631CED3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97AFC5ED-6DB9-407D-91E5-48A631CED3EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -357,6 +369,8 @@ Global
 		{35D42DC5-037E-4DFA-9F68-696E9C19E474} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
 		{DE55B778-6D0C-4572-8E8F-D6E868EF009D} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
 		{FF7B3AC7-6054-4F70-94E5-236C6F3DCF69} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
+		{BF0DD8D9-4504-4001-9373-1D4E078F5E92} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
+		{97AFC5ED-6DB9-407D-91E5-48A631CED3EF} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F3EDB7A-73D1-489C-A58A-885EA8FD56DB}
