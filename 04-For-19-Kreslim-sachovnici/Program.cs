@@ -8,41 +8,61 @@ namespace _04_For_19_Kreslim_sachovnici
         {
             int strana = 8;
 
-            //bool svetla = true;
+            bool svetla = true;
 
-            //for (int radek = 0; radek < strana; radek++)
-            //{
-            //    for(int sloupec = 0; sloupec < strana; sloupec++)
-            //    {
-
-            //        if (svetla)
-            //            Console.BackgroundColor = ConsoleColor.DarkYellow;
-            //        else
-            //            Console.BackgroundColor = ConsoleColor.Black;
-            //        Console.Write(" ");
-
-            //        svetla = !svetla; 
-            //    }
-            //    Console.WriteLine();
-            //    svetla = !svetla;
-            //}
-
-            for (int radek = 0; radek < strana; radek++)
+            Console.Write("  ");
+            for (int i = 0; i < strana; i++)
             {
+                Console.Write((char)('A' + i) + " ");
+            }
+
+            Console.WriteLine();
+
+            for (int radek = strana; radek > 0; radek--)
+            {
+                Console.Write(radek + " ");
+
                 for (int sloupec = 0; sloupec < strana; sloupec++)
                 {
 
-                    if ((radek + sloupec) %2 != 0)
+                    if (svetla)
                         Console.BackgroundColor = ConsoleColor.DarkYellow;
                     else
                         Console.BackgroundColor = ConsoleColor.Black;
-                    Console.Write("  ");                    
-                }
-                Console.WriteLine();
+                    Console.Write("  ");
 
+                    svetla = !svetla;
+                }
+
+                Console.BackgroundColor = ConsoleColor.Black;
+                Console.Write(" " + radek);
+                Console.WriteLine();
+                svetla = !svetla;
+            }
+            
+            Console.BackgroundColor = ConsoleColor.Black;
+            Console.Write("  ");
+            for (int i = 0; i < strana; i++)
+            {
+                Console.Write((char)('A' + i) + " ");
             }
 
-            Console.BackgroundColor = ConsoleColor.Black;
+            //for (int radek = 0; radek < strana; radek++)
+            //{
+            //    for (int sloupec = 0; sloupec < strana; sloupec++)
+            //    {
+
+            //        if ((radek + sloupec) %2 != 0)
+            //            Console.BackgroundColor = ConsoleColor.DarkYellow;
+            //        else
+            //            Console.BackgroundColor = ConsoleColor.Black;
+            //        Console.Write("  ");                    
+            //    }
+            //    Console.WriteLine();
+
+            //}
+
+
         }
     }
 }

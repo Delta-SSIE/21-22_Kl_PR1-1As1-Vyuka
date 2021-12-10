@@ -6,33 +6,47 @@ namespace tmp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Zadej text: ");
-            string text = Console.ReadLine();
+            //int soucet = 0;
 
-            string bezMezer = "";
-            for (int i = 0; i < text.Length; i++) //projdu všechny znaky v řetězci
-            {
-                char znak = text[i];
-                if (znak != ' ') //nechám si jen to, co nejsou mezery
-                    bezMezer += znak;
-            }
-            bezMezer = bezMezer.ToLower(); //převedu na malá písmena
-            
-            string odzadu = "";
-            for (int i = bezMezer.Length - 1; i >= 0; i--) //jdu od posledního písmene dolů
-            {
-                odzadu += bezMezer[i];
-            }
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    Console.Write("Zadej cislo: ");
+            //    int cislo = int.Parse(Console.ReadLine());
+            //    if (cislo %2 == 0)
+            //        soucet += cislo;
+            //}
 
-            //Console.WriteLine($"když přečtu \"{text}\" pozpátku, dostanu \"{odzadu}\".");
+            //Console.WriteLine(soucet);
 
-            if (bezMezer == odzadu)
+            //int soucet = 0;
+
+            //for (int i = 0; i < 10; i++)
+            //{
+            //    int cislo;
+            //    do
+            //    {
+            //        Console.Write("Zadej cislo: ");
+            //        cislo = int.Parse(Console.ReadLine());
+
+            //    } while (cislo % 2 == 1);
+
+            //    soucet += cislo;
+            //}
+
+            //Console.WriteLine(soucet);
+
+
+            int soucet = 0;
+            int sude = 0;
+            while (sude < 10)
             {
-                Console.WriteLine($"\"{text}\" je palindrom");
-            }
-            else
-            {
-                Console.WriteLine($"\"{text}\" není palindrom");
+                Console.Write("Zadej cislo: ");
+                int cislo = int.Parse(Console.ReadLine());
+                if (cislo % 2 == 0)
+                {
+                    soucet += cislo;
+                    sude++;
+                }                    
             }
         }
     }
