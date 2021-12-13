@@ -115,6 +115,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-For-22-Kam-utoci-vez-Con
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-For-23-Kam-utoci-kral-Console", "04-For-23-kam-utovi-kral-Console\04-For-23-Kam-utoci-kral-Console.csproj", "{849ACE6E-2922-4E46-B156-181EB7E39D4D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Array", "05-Array", "{B6750318-8CD9-4237-A080-99FF77DF1930}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05-Array-01-Demo", "05-Array-01-Demo\05-Array-01-Demo.csproj", "{2BD7C792-DCA2-40C6-A236-2DF9F36CAF2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -329,6 +333,10 @@ Global
 		{849ACE6E-2922-4E46-B156-181EB7E39D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{849ACE6E-2922-4E46-B156-181EB7E39D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{849ACE6E-2922-4E46-B156-181EB7E39D4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD7C792-DCA2-40C6-A236-2DF9F36CAF2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD7C792-DCA2-40C6-A236-2DF9F36CAF2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD7C792-DCA2-40C6-A236-2DF9F36CAF2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD7C792-DCA2-40C6-A236-2DF9F36CAF2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -385,6 +393,7 @@ Global
 		{97AFC5ED-6DB9-407D-91E5-48A631CED3EF} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
 		{F530AB22-3960-421D-A96C-CF7E49117DDB} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
 		{849ACE6E-2922-4E46-B156-181EB7E39D4D} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
+		{2BD7C792-DCA2-40C6-A236-2DF9F36CAF2E} = {B6750318-8CD9-4237-A080-99FF77DF1930}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F3EDB7A-73D1-489C-A58A-885EA8FD56DB}
