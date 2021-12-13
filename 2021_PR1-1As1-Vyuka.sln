@@ -107,9 +107,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-For-18-Caesar", "04-For-
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-For-19-Kreslim-sachovnici", "04-For-19-Kreslim-sachovnici\04-For-19-Kreslim-sachovnici.csproj", "{FF7B3AC7-6054-4F70-94E5-236C6F3DCF69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-For-20-Sachovnice-s-pozicí", "04-For-20-Sachovnice-s-pozicí\04-For-20-Sachovnice-s-pozicí.csproj", "{BF0DD8D9-4504-4001-9373-1D4E078F5E92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-For-20-Sachovnice-s-pozicí", "04-For-20-Sachovnice-s-pozicí\04-For-20-Sachovnice-s-pozicí.csproj", "{BF0DD8D9-4504-4001-9373-1D4E078F5E92}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04-For-21-Kam-utoci-vez", "04-For-21-Kam-utoci-vez\04-For-21-Kam-utoci-vez.csproj", "{97AFC5ED-6DB9-407D-91E5-48A631CED3EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-For-22-Kam-utoci-vez-Console", "04-For-22-Kam-utoci-vez-Console\04-For-22-Kam-utoci-vez-Console.csproj", "{F530AB22-3960-421D-A96C-CF7E49117DDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-For-23-Kam-utoci-kral-Console", "04-For-23-kam-utovi-kral-Console\04-For-23-Kam-utoci-kral-Console.csproj", "{849ACE6E-2922-4E46-B156-181EB7E39D4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -317,6 +321,14 @@ Global
 		{97AFC5ED-6DB9-407D-91E5-48A631CED3EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97AFC5ED-6DB9-407D-91E5-48A631CED3EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97AFC5ED-6DB9-407D-91E5-48A631CED3EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F530AB22-3960-421D-A96C-CF7E49117DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F530AB22-3960-421D-A96C-CF7E49117DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F530AB22-3960-421D-A96C-CF7E49117DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F530AB22-3960-421D-A96C-CF7E49117DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{849ACE6E-2922-4E46-B156-181EB7E39D4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{849ACE6E-2922-4E46-B156-181EB7E39D4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{849ACE6E-2922-4E46-B156-181EB7E39D4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{849ACE6E-2922-4E46-B156-181EB7E39D4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -371,6 +383,8 @@ Global
 		{FF7B3AC7-6054-4F70-94E5-236C6F3DCF69} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
 		{BF0DD8D9-4504-4001-9373-1D4E078F5E92} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
 		{97AFC5ED-6DB9-407D-91E5-48A631CED3EF} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
+		{F530AB22-3960-421D-A96C-CF7E49117DDB} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
+		{849ACE6E-2922-4E46-B156-181EB7E39D4D} = {EC35C0D2-9D9F-480C-B3D8-DBA4167A0CAB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F3EDB7A-73D1-489C-A58A-885EA8FD56DB}
