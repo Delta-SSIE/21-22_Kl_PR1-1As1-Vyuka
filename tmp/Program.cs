@@ -6,48 +6,82 @@ namespace tmp
     {
         static void Main(string[] args)
         {
-            //int soucet = 0;
-
-            //for (int i = 0; i < 10; i++)
+            //int AC, CCC;
+            //for (int A = 1; A < 10; A++)
             //{
-            //    Console.Write("Zadej cislo: ");
-            //    int cislo = int.Parse(Console.ReadLine());
-            //    if (cislo %2 == 0)
-            //        soucet += cislo;
-            //}
-
-            //Console.WriteLine(soucet);
-
-            //int soucet = 0;
-
-            //for (int i = 0; i < 10; i++)
-            //{
-            //    int cislo;
-            //    do
+            //    for (int C = 1; C < 10; C++)
             //    {
-            //        Console.Write("Zadej cislo: ");
-            //        cislo = int.Parse(Console.ReadLine());
+            //        AC = A * 10 + C;
+            //        CCC = C * 111;
 
-            //    } while (cislo % 2 == 1);
-
-            //    soucet += cislo;
+            //        if (A * C * AC == CCC)
+            //        {
+            //            Console.WriteLine($"řešení je {A}.{C}.{AC} = {CCC}");
+            //        }
+            //    }
             //}
 
-            //Console.WriteLine(soucet);
 
+            //  KC +  I = OK
+            //   +    +    +
+            //   E +  E = KM
+            //  ------------
+            //  OL + KO = LI
 
-            int soucet = 0;
-            int sude = 0;
-            while (sude < 10)
+            bool nalezeno = false;
+
+            for (int K = 1; K < 10 &&; K++)
             {
-                Console.Write("Zadej cislo: ");
-                int cislo = int.Parse(Console.ReadLine());
-                if (cislo % 2 == 0)
+                for (int C = 1; C < 10; C++)
                 {
-                    soucet += cislo;
-                    sude++;
-                }                    
+                    for (int I = 0; I < 10; I++)
+                    {
+                        for (int O = 1; O < 10; O++)
+                        {
+                            for (int E = 1; E < 10; E++)
+                            {
+                                for (int M = 0; M < 10; M++)
+                                {
+                                    for (int L = 1; L < 10; L++)
+                                    {
+                                        int KC = K * 10 + C;
+                                        int OK = O * 10 + K;
+                                        int KM = K * 10 + M;
+                                        int OL = O * 10 + L;
+                                        int KO = K * 10 + O;
+                                        int LI = L * 10 + I;
+
+                                        //  KC +  I = OK
+                                        //   +    +    +
+                                        //   E +  E = KM
+                                        //  ------------
+                                        //  OL + KO = LI
+
+                                        if (
+                                            KC + I == OK 
+                                            && E + E == KM
+                                            && OL + KO == LI
+                                            && KC + E == OL
+                                            && I + E == KO
+                                            && OK + KM == LI
+                                        )
+                                        {
+                                            Console.WriteLine($"{KC} +  {I} = {OK}");
+                                            Console.WriteLine(" +    +    +");
+                                            Console.WriteLine($" {E} +  {E} = {KM}");
+                                            Console.WriteLine("------------");
+                                            Console.WriteLine($"{OL} + {KO} = {LI}");
+                                            
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
+
+
     }
 }
