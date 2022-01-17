@@ -37,6 +37,14 @@ namespace _05_Array_01_Demo
                 Console.WriteLine("Na večeři přijde i " + jmena[i]);
             }
 
+            //inicializace seznamem
+            int[] cisla = new int[] { 1, 5, 12 };
+            string[] kamaradi = new string[]
+            {
+                "Petra",
+                "Pavel",
+                "Richard"
+            };
 
         }
     }
