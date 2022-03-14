@@ -177,11 +177,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-2D-array-030-Maximum", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-2D-array-040-Max-radek", "07-2D-array-040-Max-radek\07-2D-array-040-Max-radek.csproj", "{922B47DC-D542-4BAD-9803-947E8788B5E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-2D-array-050-mapa-s-rameckem", "07-2D-array-05-mapa-s-rameckem\07-2D-array-050-mapa-s-rameckem.csproj", "{B2DD995F-CC10-4B4A-A68F-07A5DB2F259C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-2D-array-050-mapa-s-rameckem", "07-2D-array-05-mapa-s-rameckem\07-2D-array-050-mapa-s-rameckem.csproj", "{B2DD995F-CC10-4B4A-A68F-07A5DB2F259C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-2D-array-060-Pocet-sousedu", "07-2D-array-06-Pocet-sousedu\07-2D-array-060-Pocet-sousedu.csproj", "{A6F7F85A-4F6D-47DB-8BE2-B1083C6A8D9C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-2D-array-060-Pocet-sousedu", "07-2D-array-06-Pocet-sousedu\07-2D-array-060-Pocet-sousedu.csproj", "{A6F7F85A-4F6D-47DB-8BE2-B1083C6A8D9C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07-2D-array-070-Mapa-sousedu", "07-2D-array-070-Mapa-sousedu\07-2D-array-070-Mapa-sousedu.csproj", "{91A4EB2A-C1EC-4564-9D24-41FDBEE8B394}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07-2D-array-070-Mapa-sousedu", "07-2D-array-070-Mapa-sousedu\07-2D-array-070-Mapa-sousedu.csproj", "{91A4EB2A-C1EC-4564-9D24-41FDBEE8B394}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08-App-010-Minesweeper", "08-App-010-Minesweeper\08-App-010-Minesweeper.csproj", "{20D59F6C-7E47-436D-AB8B-D3C498B09F7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -521,6 +523,10 @@ Global
 		{91A4EB2A-C1EC-4564-9D24-41FDBEE8B394}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{91A4EB2A-C1EC-4564-9D24-41FDBEE8B394}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{91A4EB2A-C1EC-4564-9D24-41FDBEE8B394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20D59F6C-7E47-436D-AB8B-D3C498B09F7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20D59F6C-7E47-436D-AB8B-D3C498B09F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20D59F6C-7E47-436D-AB8B-D3C498B09F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20D59F6C-7E47-436D-AB8B-D3C498B09F7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
