@@ -20,18 +20,91 @@ namespace _08_App_010_Minesweeper
             // 3 : odpálená mina
             int[,] stavMapy = new int[vyska, sirka];
 
-            for (int y = 1; y < 7; y++)
+            int poziceX = sirka / 2;
+            int poziceY = vyska / 2;
+
+            bool jeKonec = false;
+            bool vyhral = false;
+
+            while (!jeKonec)
             {
-                for (int x = 0; x < 7; x++)
+                Vykresli(mapaSousedu, stavMapy, poziceX, poziceY);
+                
+                int akce = NactiVstup();
+                switch (akce)
                 {
-                    stavMapy[y, x] = 1;
+                    case 0: //nahoru
+                        if (poziceY > 0)
+                            poziceY--;
+                        else
+                            poziceY = vyska - 1;
+                        break;
+
+                    case 1: //doprava
+                        if (poziceX < sirka - 1)
+                            poziceX++;
+                        else
+                            poziceX = 0;
+                        break;
+
+                    case 2: //dolu
+                        if (poziceY < vyska - 1)
+                            poziceY++;
+                        else
+                            poziceY = 0;
+                        break;
+
+                    case 3: //vlevo
+                        if (poziceX > 0)
+                            poziceX--;
+                        else
+                            poziceX = sirka - 1;
+                        break;
+
+                    case 4: //označ/odznač
+                        if (stavMapy[poziceY, poziceX] == 2) //je tam označeno
+                            stavMapy[poziceY, poziceX] = 0; //zruším označení
+                        else if (stavMapy[poziceY, poziceX] == 0) //není odkryto
+                            stavMapy[poziceY, poziceX] = 2; //nastavím "označeno"
+                        //jinak nic nedělám
+
+                        //potom zkontroluju vítězství
+                        vyhral = JeVitezstvi(mapaMin, stavMapy);
+                        if (vyhral)
+                            jeKonec = true;
+                        break;
+
+                    case 5: //odkryj
+                        if (stavMapy[poziceY, poziceX] != 0) //pokud už je odkryto
+                            break; //nedělej nic a skonči
+
+                        if (mapaMin[poziceY, poziceX] == true) // je tam mina
+                        {
+                            stavMapy[poziceY, poziceX] = 3;
+                            vyhral = false;
+                            jeKonec = true;
+                        }
+                        else //jinak
+                        {
+                            stavMapy[poziceY, poziceX] = 1; //odkryj v tomto bodě mapu
+                        }
+
+                        break;
                 }
+                Console.Clear();
+
             }
 
-            stavMapy[2, 2] = 2;
-            stavMapy[5, 5] = 3;
+            Vykresli(mapaSousedu, stavMapy, poziceX, poziceY);
+            //mohl bych překopírovat do stavu mapy všechny neodkryté miny
 
-            Vykresli(mapaSousedu, stavMapy, 1, 1);
+            if (vyhral)
+                Console.WriteLine("Gratuluji");
+            else
+                Console.WriteLine("Game over");
+
+
+           
 
         }
         static bool[,] VytvorMapu(int vyska, int sirka, int pocetMin)
@@ -171,6 +244,30 @@ namespace _08_App_010_Minesweeper
                 if (keyInfo.Key == ConsoleKey.Spacebar)
                     return 5;
             }
+        }
+
+        /// <summary>
+        /// Vrací true když jsou označeny všechny miny a žádná navíc
+        /// </summary>
+        /// <param name="mapaMin"></param>
+        /// <param name="stavMapy"></param>
+        /// <returns></returns>
+        public static bool JeVitezstvi(bool[,] mapaMin, int[,] stavMapy)
+        {
+            //projdu všechna pole
+            for (int y = 0; y < mapaMin.GetLength(0); y++)
+            {
+                for (int x = 0; x < mapaMin.GetLength(1); x++)
+                {
+                    if (mapaMin[y, x] == true && stavMapy[y, x] != 2)
+                        return false; //existuje neoznačená mina
+
+                    if (mapaMin[y, x] == false && stavMapy[y, x] == 2)
+                        return false; //je označena "ne-mina"
+                }
+            }
+
+            return true;
         }
     }
 }
