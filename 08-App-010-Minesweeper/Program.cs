@@ -11,6 +11,28 @@ namespace _08_App_010_Minesweeper
             int pocetMin = 12;
 
             bool[,] mapaMin = VytvorMapu(vyska, sirka, pocetMin);
+            int[,] mapaSousedu = Sousede(mapaMin);
+
+            // nové pole - všude budou 0
+            // 0 : neodkryto
+            // 1 : odkryto
+            // 2 : označená mina
+            // 3 : odpálená mina
+            int[,] stavMapy = new int[vyska, sirka];
+
+            for (int y = 1; y < 7; y++)
+            {
+                for (int x = 0; x < 7; x++)
+                {
+                    stavMapy[y, x] = 1;
+                }
+            }
+
+            stavMapy[2, 2] = 2;
+            stavMapy[5, 5] = 3;
+
+            Vykresli(mapaSousedu, stavMapy, 1, 1);
+
         }
         static bool[,] VytvorMapu(int vyska, int sirka, int pocetMin)
         {
@@ -64,6 +86,61 @@ namespace _08_App_010_Minesweeper
 
             return pocet;
         }
+
+        static int[,] Sousede(bool[, ] mapa)
+        {
+            int[,] mapaSousedu = new int[mapa.GetLength(0), mapa.GetLength(1)];
+            for (int y = 0; y < mapa.GetLength(0); y++)
+            {
+                for (int x = 0; x < mapa.GetLength(1); x++)
+                {
+                    mapaSousedu[y, x] = PocetSousedu(mapa, x, y);
+                }
+            }
+            return mapaSousedu;
+        }
+
+        static void Vykresli(int[,] sousede, int[,] stavMapy, int poziceX, int poziceY)
+        {
+            for (int y = 0; y < sousede.GetLength(0); y++)
+            {
+                for (int x = 0; x < sousede.GetLength(1); x++)
+                {
+                    int stavPole = stavMapy[y, x];
+
+                    if (y == poziceY && x == poziceX)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Black;
+                        Console.BackgroundColor = ConsoleColor.Yellow;
+                    }
+                    switch (stavPole)
+                    {
+                        case 0:
+                            Console.Write(".");
+                            break;
+                        case 1:
+                            if (sousede[y, x] != 0)
+                                Console.Write(sousede[y, x]);
+                            else
+                                Console.Write(" ");
+                            break;
+                        case 2:
+                            Console.Write("P");
+                            break;
+                        case 3:
+                            Console.Write("*");
+                            break;
+                    }
+                    if (y == poziceY && x == poziceX)
+                    {
+                        Console.ForegroundColor = ConsoleColor.White;
+                        Console.BackgroundColor = ConsoleColor.Black;
+                    }
+                }
+                Console.WriteLine();
+            }
+        }
+
 
     }
 }
