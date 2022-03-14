@@ -141,6 +141,36 @@ namespace _08_App_010_Minesweeper
             }
         }
 
+        // 0 - nahoru
+        // 1 - vpravo
+        // 2 - dolu
+        // 3 - vlevo
+        // 4 - oznac
+        // 5 - odkryj
+        public static int NactiVstup()
+        {
+            while (true) 
+            { 
+                ConsoleKeyInfo keyInfo = Console.ReadKey();
 
+                if (keyInfo.Key == ConsoleKey.UpArrow)
+                    return 0;
+
+                if (keyInfo.Key == ConsoleKey.RightArrow)
+                    return 1;
+
+                if (keyInfo.Key == ConsoleKey.DownArrow)
+                    return 2;
+
+                if (keyInfo.Key == ConsoleKey.LeftArrow)
+                    return 3;
+
+                if (keyInfo.Key == ConsoleKey.Enter)
+                    return 4;
+
+                if (keyInfo.Key == ConsoleKey.Spacebar)
+                    return 5;
+            }
+        }
     }
 }
