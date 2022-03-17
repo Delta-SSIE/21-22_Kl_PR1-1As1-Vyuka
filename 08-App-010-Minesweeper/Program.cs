@@ -214,7 +214,7 @@ namespace _08_App_010_Minesweeper
             }
         }
 
-        // 0 - nahoru
+        // 0 -v9dek nahoru
         // 1 - vpravo
         // 2 - dolu
         // 3 - vlevo
