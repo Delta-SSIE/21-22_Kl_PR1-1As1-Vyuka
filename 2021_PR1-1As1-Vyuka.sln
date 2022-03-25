@@ -197,6 +197,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-EnumExceptions-030-Excep
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09-EnumException", "09-EnumException", "{73423A9E-3394-4C1E-92DC-F31A00C7491C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10-OOP-010-Uvod-Kruznice-apod", "10-OOP-010-Uvod-Kruznice-apod\10-OOP-010-Uvod-Kruznice-apod.csproj", "{37F50DB2-1773-4545-9FA4-E58C160F1FAE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -555,6 +557,10 @@ Global
 		{140FCD15-E130-4216-ADF4-F068408BFCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{140FCD15-E130-4216-ADF4-F068408BFCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{140FCD15-E130-4216-ADF4-F068408BFCBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F50DB2-1773-4545-9FA4-E58C160F1FAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F50DB2-1773-4545-9FA4-E58C160F1FAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F50DB2-1773-4545-9FA4-E58C160F1FAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F50DB2-1773-4545-9FA4-E58C160F1FAE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
