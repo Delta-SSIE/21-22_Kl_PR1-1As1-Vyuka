@@ -189,9 +189,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-App", "08-App", "{09C103
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08-App-020-Life", "08-App-020-Life\08-App-020-Life.csproj", "{D34B2269-C9F1-4583-B1B8-006C67C6B11B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-EnumException-010-EnumDemo", "09-EnumException-010-EnumDemo\09-EnumException-010-EnumDemo.csproj", "{A6CC765A-4820-4EDE-BA4B-0A10D965BA8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09-EnumException-010-EnumDemo", "09-EnumException-010-EnumDemo\09-EnumException-010-EnumDemo.csproj", "{A6CC765A-4820-4EDE-BA4B-0A10D965BA8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-EnumException-020-Barva-karty", "09-EnumException-020-Barva-karty\09-EnumException-020-Barva-karty.csproj", "{55674C6A-7901-4C80-8455-20D0945D4481}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "09-EnumException-020-Barva-karty", "09-EnumException-020-Barva-karty\09-EnumException-020-Barva-karty.csproj", "{55674C6A-7901-4C80-8455-20D0945D4481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09-EnumExceptions-030-Exceptions", "09-EnumExceptions-030-Exceptions\09-EnumExceptions-030-Exceptions.csproj", "{140FCD15-E130-4216-ADF4-F068408BFCBF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09-EnumException", "09-EnumException", "{73423A9E-3394-4C1E-92DC-F31A00C7491C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -547,6 +551,10 @@ Global
 		{55674C6A-7901-4C80-8455-20D0945D4481}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55674C6A-7901-4C80-8455-20D0945D4481}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55674C6A-7901-4C80-8455-20D0945D4481}.Release|Any CPU.Build.0 = Release|Any CPU
+		{140FCD15-E130-4216-ADF4-F068408BFCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140FCD15-E130-4216-ADF4-F068408BFCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140FCD15-E130-4216-ADF4-F068408BFCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140FCD15-E130-4216-ADF4-F068408BFCBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -636,6 +644,9 @@ Global
 		{91A4EB2A-C1EC-4564-9D24-41FDBEE8B394} = {43D19036-B45F-496D-B778-A493FBE4CA90}
 		{20D59F6C-7E47-436D-AB8B-D3C498B09F7D} = {09C1031C-0B83-45B7-AC70-9B337B542FF8}
 		{D34B2269-C9F1-4583-B1B8-006C67C6B11B} = {09C1031C-0B83-45B7-AC70-9B337B542FF8}
+		{A6CC765A-4820-4EDE-BA4B-0A10D965BA8A} = {73423A9E-3394-4C1E-92DC-F31A00C7491C}
+		{55674C6A-7901-4C80-8455-20D0945D4481} = {73423A9E-3394-4C1E-92DC-F31A00C7491C}
+		{140FCD15-E130-4216-ADF4-F068408BFCBF} = {73423A9E-3394-4C1E-92DC-F31A00C7491C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F3EDB7A-73D1-489C-A58A-885EA8FD56DB}
