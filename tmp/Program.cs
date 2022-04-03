@@ -1,98 +1,76 @@
 ﻿using System;
 
-namespace tmp
+
+
+namespace test
 {
+    using System;
+
     class Program
     {
-        static void Main(string[] args)
+
+        public static void Main(string[] args)
         {
 
-            Console.WriteLine("Jak velky chces obrazek?");
+            int[,] pokladny = {
+            {10, 7, 12, 4, 8},
+            {3, 12, 5, 1, 4},
+            {8, 5, 6, 7, 1}
+        };
 
-            int n = int.Parse(Console.ReadLine());
+            int[,] prijmy = {
+            {0, -2, 2, -1, -3},
+            {1, -1, 2, -1, -2},
+            {-1, 1, -2, -1, 1}
+        };
 
+            vypis(BudouciHodnoty(3, pokladny, prijmy));
+            Console.ReadKey();
+        }
 
+        public static int[,] BudouciHodnoty(int kola, int[,] pokladny, int[,] prijmy)
+        {
+            int[,] budouciStav = new int[pokladny.GetLength(0), pokladny.GetLength(1)];
 
-            while (n <= 0)
-
+            for (int x = 0; x < pokladny.GetLength(1); x++)
             {
-
-                if (n <= 0)
-
+                for (int y = 0; y < pokladny.GetLength(0); y++)
                 {
-
-                    Console.WriteLine("Neplatny udaj");
-
+                    budouciStav[y, x] = pokladny[y, x] + kola * prijmy[y, x];
                 }
-
-                Console.WriteLine("Jak velky chces obrazek?");
-
-                n = int.Parse(Console.ReadLine());
-
             }
 
+            return budouciStav;
+        }
 
+        public static void vypis(int[,] pole)
+        {
+            int length;
 
-            string text = "" + n;
-
-            string text1 = "";
-
-            int j;
-
-            for (int i = 1; i < n; i++)
-
+            int i = int.MinValue;
+            for (int x = 0; x < pole.GetLength(0); x++)
             {
-
-                string cislo = "";
-
-                cislo += n;
-
-                text = "";
-
-                text1 = "";
-
-
-
-                for (j = 0; j < i; j++)
-
+                for (int y = 0; y < pole.GetLength(1); y++)
                 {
-
-                    text += cislo;
-
+                    if (pole[x, y] > i)
+                        i = pole[x, y];
                 }
-
-                text += cislo;
-
-                Console.WriteLine(text);
-
-                for (int l = 0; l < n; l++)
-
-                {
-
-                    {
-
-                        for (int k = j; k > 0; k--)
-
-                        {
-
-                            text1 += cislo;
-
-                        }
-
-
-
-                        Console.WriteLine(text1);
-
-                    }
-
-                }
-
-
-
-
-
             }
 
+            length = Convert.ToString(i).Length;
+
+
+            for (int x = 0; x < pole.GetLength(0); x++)
+            {
+                for (int y = 0; y < pole.GetLength(1); y++)
+                {
+                    Console.ForegroundColor = pole[x, y] >= 0 ? ConsoleColor.White : ConsoleColor.Red;
+                    Console.Write(pole[x, y].ToString().PadRight(length) + " ");
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
+
+
