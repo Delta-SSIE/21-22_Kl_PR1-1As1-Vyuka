@@ -8,6 +8,8 @@ namespace _10_OOP_060_Property
 {
     class Kruznice
     {
+        public string Barva { get; private set; } //automatická vlastnost
+
         private double _polomer;
 
         public double Polomer

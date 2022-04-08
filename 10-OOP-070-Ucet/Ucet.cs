@@ -30,7 +30,7 @@ namespace _10_OOP_070_Ucet
         /// <returns>true, pokud byl zůstatek dostatečný, jinak false</returns>
         public bool Vyber(double kolik)
         {
-            if (kolik >= _zustatek)
+            if (kolik <= _zustatek)
             {
                 _zustatek -= kolik;
                 return true;
@@ -39,6 +39,13 @@ namespace _10_OOP_070_Ucet
             {
                 return false;
             }
+        }
+
+        public void Urokuj(double urokovaMira)
+        {
+            //double urok = _zustatek / 100 * urokovaMira;
+            //_zustatek += urok;
+            _zustatek *= 1 + urokovaMira / 100;
         }
     }
 }
