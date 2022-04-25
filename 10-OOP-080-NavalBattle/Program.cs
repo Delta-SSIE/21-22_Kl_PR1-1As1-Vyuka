@@ -6,9 +6,26 @@ namespace _10_OOP_080_NavalBattle
     {
         static void Main(string[] args)
         {
-            const int width = 10;
-            const int height = 10;
-            const int shipCnt = 20;
+            //Player p = new Player(10, 10, 20);
+            //p.PlaceShips();
+            //SeaDisplay playerDisp = new SeaDisplay(1, 3);
+            //playerDisp.CursorColor = ConsoleColor.Green;
+
+            //SeaDisplay computerDisp = new SeaDisplay(1 + 10 + 4, 3);
+            //playerDisp.RenderSea(p.Sea, new Coords(3,5));
+            //computerDisp.RenderSea(p.Sea);
+
+            //playerDisp.SelectCoordinates(p.Sea, new Coords(5, 5));
+
+            Game();
+        }
+
+        static void Game()
+        {
+            const int width = 4;
+            const int height = 4;
+            const int shipCnt = 6;
+            const int sleep = 200;
 
             Player activePlayer;
             Player passivePlayer;
@@ -31,14 +48,29 @@ namespace _10_OOP_080_NavalBattle
             activePlayer = player;
             passivePlayer = computer;
 
+            playerDisp.RenderSea(player.Sea);
+            computerDisp.RenderSea(player.OpponentSea);
+
             //dokud není konec
             while (player.IsAlive && computer.IsAlive) 
             {
+                System.Threading.Thread.Sleep(sleep);
                 // hráč na tahu střílí
-                Coords target = activePlayer.FindTarget();
+                Coords target;
+                if (activePlayer == player)
+                {
+                    target = computerDisp.SelectCoordinates(player.OpponentSea, new Coords(width / 2, height / 2));
+                }
+                else
+                { 
+                    target = activePlayer.FindTarget();
+                }
 
                 // druhý vyhodnotí střelu
                 bool hit = passivePlayer.HandleShot(target);
+                
+                //první si poznamená
+                activePlayer.MarkResult(target, hit);
 
                 // vykreslím stav
                 if (activePlayer == player)
