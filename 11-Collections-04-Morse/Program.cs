@@ -37,7 +37,12 @@ namespace _11_Collections_04_Morse
             morse[' '] = "";
 
             Console.WriteLine("Co chceš zašifrovat?");
-            string text = Console.ReadLine();
+            string text = Console.ReadLine().ToLower();
+            for (int i = 0; i < text.Length; i++)
+            {
+                string morseZnak = morse[text[i]];
+                Console.Write(morseZnak + "/");
+            }
 
         }
     }
