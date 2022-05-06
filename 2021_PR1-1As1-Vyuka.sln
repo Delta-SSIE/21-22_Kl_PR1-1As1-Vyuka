@@ -215,15 +215,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10-OOP-070-Ucet", "10-OOP-0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10-OOP-080-NavalBattle", "10-OOP-080-NavalBattle\10-OOP-080-NavalBattle.csproj", "{1A6DC090-A454-44D9-824C-1451C4C92875}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "file-io", "file-io\file-io.csproj", "{C3B04AA5-399C-4BDE-857E-25B853DCE17C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "file-io", "file-io\file-io.csproj", "{C3B04AA5-399C-4BDE-857E-25B853DCE17C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "slow-string-building", "slow-string-building\slow-string-building.csproj", "{33ECB67B-8926-4ACC-9B11-FB0D8C32E35A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "slow-string-building", "slow-string-building\slow-string-building.csproj", "{33ECB67B-8926-4ACC-9B11-FB0D8C32E35A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11-Collections", "11-Collections", "{83D1F772-9B78-47D6-B08B-8B7D22255663}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-Collections-02-Erathostenes", "11-Collections-02-Erathostenes\11-Collections-02-Erathostenes.csproj", "{8FBB9AA5-4517-4E79-BBC0-D85FC03A557F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11-Collections-02-Erathostenes", "11-Collections-02-Erathostenes\11-Collections-02-Erathostenes.csproj", "{8FBB9AA5-4517-4E79-BBC0-D85FC03A557F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11-Collections-01-List-demo", "11-Collections-01-List-demo\11-Collections-01-List-demo.csproj", "{5E5ED145-3AAA-4D56-A822-0511BE28B972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-Collections-03-Dictionary-Demo", "11-Collections-03-Dictionary-Demo\11-Collections-03-Dictionary-Demo.csproj", "{156A466F-784F-4533-AF69-9BE40208394E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-Collections-04-Morse", "11-Collections-04-Morse\11-Collections-04-Morse.csproj", "{B023EBEF-A3A9-4368-9610-566C430765C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11-Collections-05-Frekvence-znaku", "11-Collections-05-Frekvence-znaku\11-Collections-05-Frekvence-znaku.csproj", "{A1E985F2-1A73-4012-8C2C-B8BD2BABD18E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -631,6 +637,18 @@ Global
 		{5E5ED145-3AAA-4D56-A822-0511BE28B972}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E5ED145-3AAA-4D56-A822-0511BE28B972}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5E5ED145-3AAA-4D56-A822-0511BE28B972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{156A466F-784F-4533-AF69-9BE40208394E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{156A466F-784F-4533-AF69-9BE40208394E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{156A466F-784F-4533-AF69-9BE40208394E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{156A466F-784F-4533-AF69-9BE40208394E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B023EBEF-A3A9-4368-9610-566C430765C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B023EBEF-A3A9-4368-9610-566C430765C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B023EBEF-A3A9-4368-9610-566C430765C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B023EBEF-A3A9-4368-9610-566C430765C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E985F2-1A73-4012-8C2C-B8BD2BABD18E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E985F2-1A73-4012-8C2C-B8BD2BABD18E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E985F2-1A73-4012-8C2C-B8BD2BABD18E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E985F2-1A73-4012-8C2C-B8BD2BABD18E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -733,6 +751,9 @@ Global
 		{1A6DC090-A454-44D9-824C-1451C4C92875} = {480B59D8-F1C6-4460-A59A-D4D61DD9BEEA}
 		{8FBB9AA5-4517-4E79-BBC0-D85FC03A557F} = {83D1F772-9B78-47D6-B08B-8B7D22255663}
 		{5E5ED145-3AAA-4D56-A822-0511BE28B972} = {83D1F772-9B78-47D6-B08B-8B7D22255663}
+		{156A466F-784F-4533-AF69-9BE40208394E} = {83D1F772-9B78-47D6-B08B-8B7D22255663}
+		{B023EBEF-A3A9-4368-9610-566C430765C0} = {83D1F772-9B78-47D6-B08B-8B7D22255663}
+		{A1E985F2-1A73-4012-8C2C-B8BD2BABD18E} = {83D1F772-9B78-47D6-B08B-8B7D22255663}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F3EDB7A-73D1-489C-A58A-885EA8FD56DB}
